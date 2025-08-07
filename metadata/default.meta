@@ -34,7 +34,7 @@ export = system
 access = read : [ * ], write : [ * ]
 export = system
 
-# $SPLUNK_HOME/etc/apps/whois_app/metadata/default.meta
+# $SPLUNK_HOME/etc/apps/network_commands/metadata/default.meta
 [searchbnf]
 export = system
 
