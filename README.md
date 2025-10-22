@@ -17,6 +17,8 @@ REQUIRES OUTBOUND IP/PORT WHITELISTING!! (port 43)
 
 2. curl
 
+REQUIRES OUTBOUND IP/PORT WHITELISTING to whichever port you're connecting to. 443 is open outbound everywhere so that works with no changes
+
 ```
 | makeresults
 | eval url_field="https://www.google.com:443"
