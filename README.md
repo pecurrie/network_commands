@@ -5,8 +5,11 @@ Network commands for Splunk SPL
 
 1. whois
 
+REQUIRES OUTBOUND IP/PORT WHITELISTING!! (port 43)
+
 ```
-index=main
+| makeresults
+| eval url="www.google.com"
 | whois url_field=url
 ```
 <img width="1356" height="868" alt="image" src="https://github.com/user-attachments/assets/c547623b-b58f-47be-ac60-2e1d8b68531d" />
